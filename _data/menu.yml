@@ -1,0 +1,63 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: 欢迎来到我的个人博客！
+    entries:
+      - title: 我是个爱折腾却很少有结果的boy
+      - title: 这是我的 Github
+        url: https://github.com/pzwboy
+      - title: 这是我的哔哩哔哩
+        url: https://space.bilibili.com/1747610843
+#      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+
+  - title: 所有文章
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: 查看归档...
+      show_more_url: archive.html
+
+#  - title: posts by category
+#    post_list:
+#      category: example2
+#      show_more: true
+#      show_more_text: See more posts...
+#      show_more_url: example2-archive.html
+
+  - title: RSS 订阅
+    url: feed.xml
+  
+#  - title: another list
+#    entries:
+#      - title: with subitems
+#        entries:
+#          - title: with subsubitems
+#          - title: example page
+#            url: about
+#  - title: PRO TIP
+#    entries:
+#      - title: to edit this menu, edit _data/menu.yml file
+
+  - title: 其他页面
+    entries:
+      - title: 关于
+        url: about.html
+      - title: 资源
+        url: resources.html
+      - title: Google 镜像
+        url: google.html
+        
+  - title: 网站
+    entries:
+      - title: Aria2在线下载管理
+        url: https://aria2.pzwboy.eu.org/
+      - title: "<a href='http://pzwboy.ysepan.com/'>资源站</a> 和 <a href='http://my.pzwboy.eu.org/'>资源站2号</a>"
+      - title: Pzwboy Flash游戏
+        url: https://flash.pzwboy.eu.org/
+      - title: Portal 2:LAB RAT 镜像
+        url: https://portal2.pzwboy.eu.org/
+      - title: Goddess of Victory: Nikke (2020年网页存档，当时的画风真奇怪）
+        url: https://nikke.pzwboy.eu.org/
+      - title: Xash 3D 网页版
+        url: http://xash.pzwboy.eu.org/

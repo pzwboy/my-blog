@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+  
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+</article>
+<!--Waline 开始-->
+<div id="waline"></div>
+  <script type="module">
+    import { init } from '/waline/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline.pzwboy.eu.org',
+    });
+  </script>
+<!--Waline 结束-->	
+<!-- Waline 样式 开始 -->
+  <link rel="stylesheet" href="/waline/waline.css"/>
+<!-- Waline 样式 结束 -->
+
+<p style="text-align:center;" class="copyright">&copy; 2020-<span id="current-year">
+	<script>document.getElementById("current-year").innerHTML=(new Date).getFullYear()</script>
+	Pzwboy.</p>
