@@ -14,14 +14,17 @@ title:  "Xash 3D（半衰期1代）iOS版本安装指南"
 
 * iOS设备中已安装Filza
 
-##### Filza安装方式
-###### 越狱
+#### Filza安装方式
+
+##### 越狱
 打开Sileo或Cydia，搜索并安装`Filza File Manager`即可
 
-###### 仅安装了Trollstore
+##### 仅安装了Trollstore
 [Pzwboy 资源站](http://pzwboy.ysepan.com)
 
 iOS游戏-->Filza_3.9.5-文件管理器.ipa
+
+安装即可
 
 ## 1.安装xash引擎启动器
 
