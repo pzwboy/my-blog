@@ -198,6 +198,12 @@ title: 资源
 
 我第一次玩CS就是这个版本，从老电脑中翻出来后就有了想复原成原版的想法，2022年制作的第一版可以在[Counter-Strike精简版 发行版 - Gitee.com](https://gitee.com/pzwboy/counter-strike-lite/releases)中下载
 
+* * *
+
+[《我的世界》Java版 中国版“终末之诗”资源包补丁](/file/end_schinese.zip)
+
+<script src="jwplayer/js/jquery-3.2.1.js"></script>
+<script src="jwplayer/jwplayer.js"></script>
 <script>
 			var thePlayer; 
 			jwplayer.key="hTHv8+BvigYhzJUOpkmEGlJ7ETsKmqyrQb8/PetBTBI=";		
